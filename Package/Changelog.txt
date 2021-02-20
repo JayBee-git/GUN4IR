@@ -1,0 +1,301 @@
+*2021/02/20 - FW2.64
+
+Firmware:
+- Fixed a bug that kept the controller axises in upper left position
+- Fixed a bug that prevented the modes to switch correctly
+
+*2021/02/07 - GUI 1.26beta - FW2.62
+
+In this update I mainly modified the way the offscreen reload and screen content mode work.
+
+Previously, you could only switch between full screen or 4:3, but now you can switch between fullscreen and a user defined aspect ratio. You can change this aspect ratio either from the GUI (to save in eeprom) or from a serial command (for per game setup). Everything on that new mode is written in the guide and the GUI.
+
+Now when offscreen is in "Disabled", you can't fire offscreen (other buttons still work offscreen of course), and a 4th mode "Normal Shot" was added if you want to be able to shot offscreen without reloading.
+
+User Guide:
+- Corrected and modified various data
+- Added all the previously undocumented serial commands, now you can modify most of the gun aspects through serial
+
+GUI:
+- updated to support the new modes
+
+Firmware:
+- updated to support the new modes
+- fixed the gamepad buttons issue
+- removed the gamepad mode dpad to save space (dpad now works as normal buttons, allowing to use it for something else)
+- fixed an issue when changing modes through combo would keep some buttons hold
+- better combo button switching, now just pushing the mode+button combo should always switch to the correct mode, no need to do them in a specific order
+- slightly increased the mode button and trigger button debounce (20ms)
+
+
+*2021/01/30 - GUI 1.25beta - FW2.58
+
+User Guide:
+- Updated and added various info, including the DIY camera and the Wii Nunchuck connection
+
+GUI:
+- updated to support the new boards
+- made the "Test Screen" button enabled no matter if a gun is detected or not, allowing to test with any mouse device, and also having a guide for Leds placement
+- various bug fixes and cleanup
+
+Firmware:
+- updated to support the Micro full pinout
+- various bug fixes and cleanup
+
+
+*2020/12/30 - GUI 1.21beta - FW2.55 - Goodbye 2020 update
+
+Global:
+- Brand new name for the system! Less generic than JB4PLG ;)
+
+GUI:
+- brand new interactive calibration process with more info and options, now fully done in app, making it more reliable and convenient!
+- added fullauto trigger timing change option
+- various bug fixes and cleanup
+
+Firmware:
+- fullauto trigger timing added
+- temporary (not saved in eeprom) calibration serial command ('C')
+- added debounce for trigger and mode buttons
+- various bug fixes and cleanup
+
+
+*2020/12/14
+- User Manual v1.0 uploaded
+- Main Post cleaning
+- Uploaded Gun updates (that was uploaded on discord first
+
+
+*2020/11/24 - GUI 1.17beta - FW 2.52
+Firmware
+- fixed axis flip with bluetooth
+- fixed an incompatibility with linux mouse management
+
+GUI:
+- stability fixes
+
+
+*2020/11/18 - GUI 1.16beta
+GUI:
+- improved the flashing error detection
+- added a version write/read on the arduino, so that you will know what version is currently flashed on it. It's a test feature.
+- fixed a bug that prevented to make the blue led blink
+
+
+*2020/10/29 - GUI 1.12beta - FW 2.48
+Firmware
+- big serial commands change, to make them more unified and versatile (see the usage section changes)
+- various leds detection updates and optimizations, to make it more stable and failproof
+- new fullauto mode added, "always on", for games that always use fullauto but don't have outputs
+
+GUI:
+- new manual calibration mode from the GUI, you can now refine the calibration very easily
+- matched the serial command changes
+
+
+*2020/10/24 - GUI 1.0beta - FW 2.39
+
+Firmware:
+- pseudo 3d aiming calculation, that works way better on every aspects, and makes the aiming flawless no matter the angle!
+- RN-42 (or hacked HC-05) bluetooth board support! Now you can use bluetooth and usb at the same time.
+  To make it work, configure the module to hid controller, then connect it to the pin 0 and 1 of the board (more info about that coming soon).
+- fixed some bugs with the calibration that was preventing it from working correctly
+- fixed a bug with the nunchuck direction
+- added a fullauto mode enable/disable option
+- various bug fixes and optimizations
+
+GUI:
+- added fullauto and Bluetooth mode options
+- fixed some bugs
+
+
+*2020/10/08 - GUI 0.991beta - FW 2.33
+GUI:
+- Updated the GUI graphic management. Now both camera sensor tab and full screen test mode should be super smooth, no more flickering! So you should be able to see way more easily if there are any detection issue with your LEDs.
+- Finally added the temperature sensor reading button, now you can check the solenoid current temperature with a single button press.
+- added a function to change sensitivity for the camera sensor in real time; press CTRL keyboard key in the camera test mode to change the sensitivity level. (don't forget to upload the settings once you finish, if you are happy with the result)
+- fixed a small bug that was preventing the sensitivity to display correctly
+
+Firmware:
+- added real time sensitivity change for the new GUI function
+- fixed some bugs that were preventing the gamepad mode from working correctly
+- better IR correction algorithm (for IR reflections, duplicated points...)
+- now the gun doesn't need to see the 4 led points to start tracking, it starts tracking as soon as it see 2 points.
+- various bug fixes and optimizations
+
+
+*2020/10/05 - GUI v0.97beta - Firmware 2.30 Anniversary edition
+Firmware - for the 1 year anniversary of this firmware, I wanted to do a big update on it, so here are the updates so far (more incoming);
+- Rewrote all libraries and code to take less space and have less global latency (down to ~4ms total processing time)
+- Fixed various bugs that was causing issues to the calibration and the accuracy
+- Improved a lot the global precision, especially on the sides of the screen or when moving around
+- Added a "sync mode" that waits for the position to be calculated before activating the pressed buttons, instead of pressing them right away. It allows to get perfect accuracy on fast motion with a very small latency tradeoff. I recommend to leave it on.
+- Changed the calibration to 5 steps (instead of the usual 3). Since the calibration has to be done only once, I decided to change it to make it way more accurate and failproof. Note that each step will only be validated if the camera sees the necessary IR points (4 for center, 3 for each side).
+- Prepared the firmware for the next updates.
+GUI:
+- small fixes and modifications to support the new firmware.
+
+
+*2020/09/28 - GUI v0.96beta
+- While working on the next big update, I wanted to release a small update mainly to add direct support for the Sparkfun pro micro boards. So now no more empty sketch flashing needed!
+- added the official Sparkfun drivers to the package, for those who are using Windows 7.
+- added an icon to the GUI exe.
+
+
+*2020/08/21 - GUI v0.94beta - Firmware 2.26
+- firmware: fixed a bug that prevented the sensitivity profiles to load correctly
+- GUI: removed the custom max sensitivity level, as it's not working correctly
+
+
+*2020/08/20 - GUI v0.93beta
+- fixed a bug that prevented from uploading the settings
+
+
+*2020/08/20 - GUI v0.92beta - Firmware v2.25
+Firmware:
+- big overall of the IR camera code. You can now change the camera sensitivity to different levels, allow to fit your setup way more.
+UI:
+- adding the camera sensitivity option.
+- changed the way the GUI upload the gun settings, now it doesn't reboot the gun anymore, it's a lot faster.
+
+
+*2020/07/30 - GUI v0.90beta
+- Added a temporary fix to prevent the app from crashing if the gun somehow has wrong settings saved, and asks you if you want to reset it to default.
+- Fixed a bug where you can't switch between keyboard and mouse buttons on saved buttons settings
+
+
+*2020/06/28 - GUI v0.89beta - Firmware v2.24
+- UI: preventing the UI to crash when calibration give weird numbers
+- Firmware: calibration more stable and accurate
+
+
+*2020/04/30 - 2.22
+- big update of the detection and tracking, it now works better, faster and more precise than ever
+- various update to make it compatible with the GUI
+
+
+*2020/04/30 - 2.16
+- fixed a small bug that prevented the temperature sensor to be read
+
+
+* 2020/04/30 - 2.15
+- big rewriting/update of the detection process, now it's lighter, faster and more stable
+- better perspective correction, now it should be more accurate on the screen sides
+- code cleanup and optimization
+- fixed a bug in the camera calibration, it should now work better
+- merged the test and normal firmware again, thanks to the optimization
+- added various update to make it compatible with the upcoming UI
+- updated the IR cam test pde to match the changes
+- to win space and make it more stable, I had to reduce the tilt support to around 45°. It should however not impact it too much since the tilt more than 45° wasn't completely stable anyway
+
+
+* 2020/04/13 - 2.07
+- add the right click offscreen shot mode back, now there are 3 modes we can cycle; lower left corner offscreen shot (default), right click offscreen shot, and disabled
+
+
+*2020/04/11 - 2.06
+- fixed the rgb led detection that wasn't working properly. please update to this one especially if you have an rgb led or if you have a gun with dpad and/or start button.
+
+
+* 2020/04/09 - 2.05 - unified firmware
+- added rgb led autodetection, no need for 2 firmware now it should automatically detect if you have a rgb led or not, also avoiding a wrong flashing
+- changed the offscreen/auto reload function to take less memory and run faster
+- temporized the temperature sensor reading, it's checking only once every 2 seconds now
+- fixed an issue with the 4:3 mode not working correctly on screen ratio lower than 4:3 (5:4 screens for instance)
+- changed the IR led detection algorithm to detect each IR "blob" size, improving the way we can detect/filter the IR sources
+- fixed the issue with the feedback still behaving the same when offscreen shoot mode is on
+- fixed a wrong behavior of the solenoid in serial mode
+- made some change on the serial commands to make them more universal and future-proof. please see the updated note on it
+- updated the batch tool to fit the new firmware
+- added an option in the batch tool to change the temperature sensor thresholds
+- various fixes and optimizations
+
+
+* 2020/02/29 - 1.93
+- reworked the aiming and detection, to make it faster and better
+- fixed some bugs
+
+
+* 2020/02/29 - 1.91
+- rewrote the 3 points aiming calculation, it's way more precise now
+- changed the test tool to better see the led recognition.
+
+
+* 2020/02/28 - 1.87
+- 2 points detection is now inactive if too close from the screen, to avoid misdetection
+
+
+* 2020/02/28 - 1.86
+- fixed calibration issues
+- fixed aiming issues
+- fixed the flash/clear tool
+
+
+* 2020/02/28 - 1.85 major update, please read the changelog carefully before updating!
+
+- rewrote the whole flashing and config tool, now a lot more user friendly!
+- made a double timing test to be able to flash any arduino. No need to modify the bat file anymore.
+- various optimizations
+- IR points detection bug corrected, it should be a bit more stable now
+- reworked the buttons management
+- merged normal and test firmware, now the test tool should trigger the test mode (replug the arduino once to reboot in normal mode)
+
+- added RGB LED support for the 7 button + LED firmware! If your gun uses more than 7 buttons or if you don't want LED support please use the 11 buttons firmware
+- added temperature sensor support! connect a tmp36 sensor to pin A0
+- added rumble and LED feedbacks when changing modes
+- added various LED feedbacks
+- added EEPROM save and load gun data
+
+- updated the game screen ratio modes for better usage and compatibility, now there are only 2; fullscreen and 4:3
+- updated the test tool, now the one pde tool supports both normal and full screen, and has more options (don't use the old tools)
+
+
+* 2020/02/18 - 1.76
+- reworked the buttons management again and fixed the remaining issues (with the calibration for instance)
+- fixed the bug with the feedback when offscreen reload is disabled, now it should trigger the solenoid (the way it works remain unchanged when offscreen reload is enabled)
+- modified the flashing batch file to be more compatible (detects bootloader whatever the model, and waits for 6 seconds now)
+- rewrote part of the guide, added installation instructions
+
+
+* 2020/02/16 - 1.75
+- fixed the combo buttons functions (joystick mode, offscreen shot...)
+- reworked the buttons management to decrease risks of bugs and future-proof it
+- did a lot of small optimization to increase the execution speed.
+- changed the zip file, firmware name and flash bat again, now you can know which firmware you have, and choose between normal and test firmware. Please don't mix with the previous files.
+
+
+* 2020/02/15 - 1.70
+- restored the cursor accuracy without increasing the load, it should eliminate most wobbles
+- put everything in only one zip and renamed the batches file for more clarity.
+- added diagrams for the gun feedbacks
+
+
+* 2020/02/12 - 1.68
+- Improved 2 points detection, optimized other functions
+- updated the .pde sketch for IR testing
+
+
+* 2020/02/12 - 1.66
+- fixed bugs and 2 points detection
+
+
+* 2020/02/11 - IR cam testing tool
+- added test app
+
+
+* 2020/02/09 - 1.55 beta
+- Rewrote aiming calculation
+- Added a better tilt/twist detection, it increases the maximum tilt to 89 degrees on each side.
+- Added a function to disable the press of secondary button when shooting offscreen.
+
+
+* 2020/01/19 - 1.35
+- improved the led and twist detection
+
+
+* 2020/01/18 - 1.3
+- cleaned code, added manual screen calibration.
+
+
+* 2019/10/26 - 1.2
+- first public version
