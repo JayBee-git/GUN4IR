@@ -1,7 +1,7 @@
 ![JB Game Lab](https://github.com/JayBee-git/GUN4IR/blob/master/img/JBGL-Logo_256p.png?raw=true)
 
 # GUN4IR
-
+![GUN4IR GUI](https://github.com/JayBee-git/GUN4IR/blob/master/img/GUN4IR_GUI.PNG?raw=true)
 This is a highly efficient and versatile DIY lightgun system, with a strong community and active development.
 The main goal of this system is to provide a lightgun experience as close as possible from the arcade, while providing as much features and simplicity of use as possible.
 
@@ -31,6 +31,36 @@ USB and Bluetooth Mouse and Controller compatible: since it's using standard HID
 - Full serial command support: you can use serial commands to set every gun mode, and sync the game feedback with the gun feedback.
 - Fully featured GUI for supporters: for the supporters of this project, there is a full GUI with a lot of options and tools to configure every aspect of the gun.
 
+# Videos
+Here are some videos showing the system working, by me or other users:
+
+2 videos made by Foxhole on Point Blank and Sports Shooting USA
+
+[![Point Blank](https://img.youtube.com/vi/mcYRB-wIr9M/0.jpg)](https://www.youtube.com/watch?v=mcYRB-wIr9M)
+
+[![Sports Shooting USA](https://img.youtube.com/vi/fi3TZm3PpPQ/0.jpg)](https://www.youtube.com/watch?v=fi3TZm3PpPQ)
+
+2 other videos by hyo2012 that show my system really well
+
+[![House of the Dead 3](https://img.youtube.com/vi/7z0xmR6kQok/0.jpg)](https://www.youtube.com/watch?v=7z0xmR6kQok)
+
+[![Operation G.H.O.S.T](https://img.youtube.com/vi/jZsT_Facpc8/0.jpg)](https://www.youtube.com/watch?v=jZsT_Facpc8)
+
+A review video of the system by Ben:
+
+[![Gun4IR Review](https://img.youtube.com/vi/O6zyrMOQLG4/0.jpg)](https://www.youtube.com/watch?v=O6zyrMOQLG4)
+
+Demonstration of the pinpoint accuracy of this system:
+
+[![Accuracy test](https://img.youtube.com/vi/u64Fsu6oNQk/0.jpg)](https://www.youtube.com/watch?v=u64Fsu6oNQk)
+
+Note that the latency in the video is mainly caused by my test app and my screen, the latency in-game is lower.
+
+# Contact and info
+You can contact me or get more info about this system in the official discord server, or on the BYOAC forum:
+https://discord.gg/HJyfYja
+http://forum.arcadecontrols.com/index.php/topic,161189.0.html
+
 # How to
 Everything you need to start this project is in the pdf user guide in this repository.
 
@@ -45,8 +75,4 @@ http://forum.arcadecontrols.com/index.php/topic,161189.msg1697808.html#msg169780
 
 # Changelog
 You can find the changelog either in the discord server of on the arcadecontrol forum (see the previous link)
-
-# Contact
-You can contact me easily in the official discord server here:
-https://discord.gg/HJyfYja
 
