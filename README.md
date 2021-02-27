@@ -35,17 +35,23 @@ USB and Bluetooth Mouse and Controller compatible: since it's using standard HID
 Here are some videos showing the system working, by me or other users:
 
 2 videos made by Foxhole on Point Blank and Sports Shooting USA
+
 [![Point Blank](https://img.youtube.com/vi/mcYRB-wIr9M/0.jpg)](https://www.youtube.com/watch?v=mcYRB-wIr9M)
+
 [![Sports Shooting USA](https://img.youtube.com/vi/fi3TZm3PpPQ/0.jpg)](https://www.youtube.com/watch?v=fi3TZm3PpPQ)
 
 2 other videos by hyo2012 that show my system really well
+
 [![House of the Dead 3](https://img.youtube.com/vi/7z0xmR6kQok/0.jpg)](https://www.youtube.com/watch?v=7z0xmR6kQok)
+
 [![Operation G.H.O.S.T](https://img.youtube.com/vi/jZsT_Facpc8/0.jpg)](https://www.youtube.com/watch?v=jZsT_Facpc8)
 
 A review video of the system by Ben:
+
 [![Gun4IR Review](https://img.youtube.com/vi/O6zyrMOQLG4/0.jpg)](https://www.youtube.com/watch?v=O6zyrMOQLG4)
 
 Demonstration of the pinpoint accuracy of this system:
+
 [![Accuracy test](https://img.youtube.com/vi/u64Fsu6oNQk/0.jpg)](https://www.youtube.com/watch?v=u64Fsu6oNQk)
 
 Note that the latency in the video is mainly caused by my test app and my screen, the latency in-game is lower.
