@@ -31,6 +31,28 @@ USB and Bluetooth Mouse and Controller compatible: since it's using standard HID
 - Full serial command support: you can use serial commands to set every gun mode, and sync the game feedback with the gun feedback.
 - Fully featured GUI for supporters: for the supporters of this project, there is a full GUI with a lot of options and tools to configure every aspect of the gun.
 
+# Videos
+Here are some videos showing the system working, by me or other users;
+2 videos made by Foxhole on Point Blank and Sports Shooting USA\
+https://youtu.be/mcYRB-wIr9M
+https://youtu.be/fi3TZm3PpPQ
+
+2 other videos by hyo2012 that show my system really well
+https://youtu.be/7z0xmR6kQok
+https://youtu.be/jZsT_Facpc8
+
+A review video of the system by Ben:
+https://youtu.be/O6zyrMOQLG4
+
+Demonstration of the pinpoint accuracy of this system:
+https://youtu.be/u64Fsu6oNQk
+Note that the latency in the video is mainly caused by my test app and my screen, the latency in-game is lower.
+
+# Contact and info
+You can contact me or get more info about this system in the official discord server, or on the BYOAC forum:
+https://discord.gg/HJyfYja
+http://forum.arcadecontrols.com/index.php/topic,161189.0.html
+
 # How to
 Everything you need to start this project is in the pdf user guide in this repository.
 
@@ -45,8 +67,4 @@ http://forum.arcadecontrols.com/index.php/topic,161189.msg1697808.html#msg169780
 
 # Changelog
 You can find the changelog either in the discord server of on the arcadecontrol forum (see the previous link)
-
-# Contact
-You can contact me easily in the official discord server here:
-https://discord.gg/HJyfYja
 
