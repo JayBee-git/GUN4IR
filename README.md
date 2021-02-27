@@ -1,5 +1,7 @@
 # GUN4IR
 
+![JB Game Lab](https://github.com/JayBee-git/GUN4IR/blob/master/img/JBGL-Logo_256p.png?raw=true)
+
 This is a highly efficient and versatile DIY lightgun system, with a strong community and active development.
 The main goal of this system is to provide a lightgun experience as close as possible from the arcade, while providing as much features and simplicity of use as possible.
 
@@ -43,3 +45,8 @@ http://forum.arcadecontrols.com/index.php/topic,161189.msg1697808.html#msg169780
 
 # Changelog
 You can find the changelog either in the discord server of on the arcadecontrol forum (see the previous link)
+
+# Contact
+You can contact me easily in the official discord server here:
+https://discord.gg/HJyfYja
+
