@@ -1,6 +1,6 @@
-# GUN4IR
-
 ![JB Game Lab](https://github.com/JayBee-git/GUN4IR/blob/master/img/JBGL-Logo_256p.png?raw=true)
+
+# GUN4IR
 
 This is a highly efficient and versatile DIY lightgun system, with a strong community and active development.
 The main goal of this system is to provide a lightgun experience as close as possible from the arcade, while providing as much features and simplicity of use as possible.
