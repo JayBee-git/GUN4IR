@@ -64,6 +64,7 @@ http://forum.arcadecontrols.com/index.php/topic,161189.0.html
 
 # How to
 Everything you need to start this project is in the pdf user guide in this repository.
+https://github.com/JayBee-git/GUN4IR/blob/master/Package/JB%20GUN4IR%20User%20Guide.pdf
 
 # Firmware and GUI download
 The files can be found in the repository or the release folder here:
