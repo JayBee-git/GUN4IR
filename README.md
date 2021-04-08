@@ -78,3 +78,9 @@ http://forum.arcadecontrols.com/index.php/topic,161189.msg1697808.html#msg169780
 # Changelog
 You can find the changelog either in the discord server of on the arcadecontrol forum (see the previous link)
 
+# Distributors
+I don't sell kits or pre made guns yet, since I am still working on it.
+I will post the link to where to buy them whenever they are ready.
+
+Meanwhile RPEG is building pre modded guns by himself and selling them here;
+https://discord.com/channels/@me/821848724958347304/829558967134846977
