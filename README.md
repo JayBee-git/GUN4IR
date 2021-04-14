@@ -9,6 +9,8 @@ The main goal of this system is to provide a lightgun experience as close as pos
 Before starting, a small obligatory disclaimer: like with any DIY project, I am not responsible for any damage you might do to your hardware/yourself. Be sure to read everything carefully before using my firmware. I am not a professional in electronics. I am giving all the schematics and pics as examples, use them at your own risks.
 And of course, this firmware cannot be sold alone nor in a package/hardware, it is completely free. If some people sold it to you, you were scammed.
 
+This project is under the Open Source Hardware (OSHW) license 1.0.
+
 # Features List
 - Perfect line of sight accuracy: thanks to the 4 leds system, a ton of advanced math and pseudo 3D space calculation that does auto calibration and tracking in real time, you get a perfect line of sight accuracy all the time.
 - One time calibration: calibrate the camera sensor and leds once, and then forget it, the aiming will still work perfectly no matter the angle, position, or if you disconnect your gun.
