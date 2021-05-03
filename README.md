@@ -86,11 +86,11 @@ You can find the changelog either in the discord server of on the arcadecontrol 
 I don't sell kits or pre made guns yet, since I am still working on it.
 I will post the link to where to buy them whenever they are ready.
 
-Meanwhile there are 2 services partnering with me, providing their own gun mod services and pre modded guns;
+Meanwhile there are 2 people partnering with me, providing their own gun mod services and pre modded guns;
 
 From US:
 
-RPEG electronics
+Ray
 www.rpegelectronics.com
 
 From EU:
