@@ -101,3 +101,5 @@ Here are his catalogs for his mod services and pre modded guns;
 https://drive.google.com/file/d/1-HYwO31Yo0Ln1vXjjlMzH3fH8T89EcIJ/view?usp=sharing
 
 https://drive.google.com/file/d/168u9iWILb8ZGgiWuAHoBKRkP-bj2b8Aq/view?usp=sharing
+
+And you can contact him here at papagustavokratos@gmail.com
