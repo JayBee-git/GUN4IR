@@ -86,7 +86,8 @@ You can find the changelog either in the discord server of on the arcadecontrol 
 I don't sell kits or pre made guns yet, since I am still working on it.
 I will post the link to where to buy them whenever they are ready.
 
-Meanwhile there are 2 people partnering with me, providing their own gun mod services and pre modded guns;
+Meanwhile there are 2 sellers providing their own gun mod services and pre modded guns.
+(please note that while they are fully licensed to sell my gun system, I do not endorse the prices and services they are providing)
 
 From US:
 
