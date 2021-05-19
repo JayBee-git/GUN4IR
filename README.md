@@ -71,8 +71,8 @@ Everything you need to start this project is in the pdf user guide in this repos
 https://github.com/JayBee-git/GUN4IR/blob/master/Package/JB%20GUN4IR%20User%20Guide.pdf
 
 # Firmware and GUI download
-The files can be found in the repository or the release folder here:
-https://github.com/JayBee-git/JB4PLG/tree/master/Releases
+The files can be found in this folder:
+https://drive.google.com/drive/folders/1U5cfsR68pBVBepW_PadQKwVur_W6mDWn?usp=sharing
 
 # GUI license
 The firmware is free for anyone to use, but the GUI license is for donators only.
