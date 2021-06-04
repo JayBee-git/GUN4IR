@@ -9,8 +9,9 @@ The main goal of this system is to provide a lightgun experience as close as pos
 Before starting, a small obligatory disclaimer: like with any DIY project, I am not responsible for any damage you might do to your hardware/yourself. Be sure to read everything carefully before using my firmware. I am not a professional in electronics. I am giving all the schematics and pics as examples, use them at your own risks.
 And of course, this firmware cannot be sold alone nor in a package/hardware, it is completely free. If some people sold it to you, you were scammed.
 
-This project is closed source, and is the property of JB Game Lab. 
-Selling and distribution of this system or part of it without the consent of the author is forbidden.
+This system, including hardware and software, is Copyrighted (C) by JB Game Lab.
+It is NOT open source in any way.
+Any unauthorised use of the system or any part of it is strictly prohibited.
 
 
 # Features List
