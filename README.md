@@ -1,6 +1,6 @@
 ![JB Game Lab](https://i.imgur.com/Y6I3gcn.png)
 
-# GUN4IR
+# GUN4IR™
 ![GUN4IR GUI](https://i.imgur.com/OiMkTTC.png)
 
 This is a highly efficient and versatile DIY lightgun system, with a strong community and active development.
@@ -9,8 +9,8 @@ The main goal of this system is to provide a lightgun experience as close as pos
 Before starting, a small obligatory disclaimer: like with any DIY project, I am not responsible for any damage you might do to your hardware/yourself. Be sure to read everything carefully before using my firmware. I am not a professional in electronics. I am giving all the schematics and pics as examples, use them at your own risks.
 And of course, this firmware cannot be sold alone nor in a package/hardware, it is completely free. If some people sold it to you, you were scammed.
 
-This system, including hardware and software, is Copyrighted (C) by JB Game Lab.
-It is NOT open source in any way.
+This system, including hardware and software, is Copyrighted (C) and trademarked (TM) by JB Game Lab™.
+It is NOT an open source project.
 Any unauthorised use of the system or any part of it is strictly prohibited.
 
 
